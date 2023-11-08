@@ -6,7 +6,7 @@ Visualizar de manera efectiva y atractiva mi experiencia, habilidades y proyecto
 menos probable- mas probable- menos probable
 - - - - - - - - - -
 #### ¿Qué existe que es similar a la propuesta? →
-Sitios del 1-6
+Sitios del 1-6 (mencionar aspectos positivos y negativos)
 - - - - - - - - - -
 #### ¿Qué existe que puede inspirar la propuesta? →
 Crean un moodboard con esto
