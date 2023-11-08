@@ -8,7 +8,7 @@ Menos probable 1
 Menos probable 2
 ![Slide 16_9 - 2](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/868164de-b956-40d2-b7a4-65e292b04e11)
 Más probable
-![Slide 16_9 - 3](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/f493fdb0-3db4-4b08-9897-48b669a18ccd)
+![Slide 16_9 - 3](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/a151d150-ccd5-4136-9284-6ae2b9132fcb)
 
 - - - - - - - - - -
 #### ¿Qué existe que es similar a la propuesta? →
