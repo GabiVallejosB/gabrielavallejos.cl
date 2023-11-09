@@ -18,8 +18,8 @@ Sitios del 1-6 (mencionar aspectos positivos y negativos)
 1. Athlon
 ![image 3](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/faabf2ac-c6f8-4fe4-ae44-71be39af3641)
 
-# Bueno: Buena armonía etre elementos gráficos y el texto. Buena armonía de colores y simpleza.
-# Por mejorar: Carece de información (contenido), los elementos parecen estar muy separados unos con otros.
+###### Bueno: Buena armonía etre elementos gráficos y el texto. Buena armonía de colores y simpleza.
+###### Por mejorar: Carece de información (contenido), los elementos parecen estar muy separados unos con otros.
 3. EL PALACE BARCELONA
 ![image 4](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/3abe735f-b9fe-4fbf-bf1c-3cbd95e01ff8)
 
