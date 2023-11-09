@@ -51,5 +51,5 @@ Sitios del 1-6 (mencionar aspectos positivos y negativos)
 **Por mejorar:** Parece tener interacciones muy complicadas para mi nivel y a veces el tamaño de la letra no es el mejor para un buen contraste.
 - - - - - - - - - -
 #### ¿Qué existe que puede inspirar la propuesta? →
-Crean un moodboard con esto
-https://create.vista.com/es/templates/mood-board/
+![Moodboard 3000x2000 px](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/7998b764-f226-47d2-a597-9defcdef2a36)
+
