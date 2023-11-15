@@ -10,6 +10,7 @@ Extremo 2: Diseñadora web que constantemente busca inspiración para el desarro
 Más probable: Diseñadora en Australia que esté en busca de nuevos trabajadores para su equipo de diseño.
 
 A continuación se presentan sus Persona:
+
 **Extremo 1**
 ![Slide 16_9 - 1](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/fc65e942-b73e-44f7-82a0-2954a8374213)
 
@@ -33,14 +34,20 @@ https://www.weareathlon.com/
 
 
 **2. EL PALACE BARCELONA**
+
+https://www.hotelpalacebarcelona.com/the-hotel
+
 ![image 4](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/3abe735f-b9fe-4fbf-bf1c-3cbd95e01ff8)
-**Bueno:** Muy delicado y mucha armonía. Buen contraste de colores e interesante elección de tipografía
+**Bueno:** Muy delicado y mucha armonía. Buen contraste de colores e interesante elección de tipografía.
+
 **Por mejorar:** Algunas palabras están en tamaño muy pequeño siiendo poco legible
 
 
 **3. Haptic**
+
 ![image 5](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/17fa4f43-7bd5-4cca-9e62-b3b30c125799)
 **Bueno:** Muy interesante la estructura del one pager.
+
 **Por mejorar:** Carece de texto, utiliza principalmentee imágenes, pero pensándolo de la perspectiva de una portafolio debería contener más información.
 
 
