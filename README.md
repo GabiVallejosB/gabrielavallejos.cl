@@ -67,7 +67,8 @@ https://mixpanel.com/
 
 https://todoist.com/es
 
-   ![image 7](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/84373899-15aa-4064-9d0e-f83a59ca976a)
+ ![image 7](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/84373899-15aa-4064-9d0e-f83a59ca976a)
+   
 **Bueno:** Muy interesante la aplicación de elementos gráficos de información. Bien dividida la información. Se logra un equilibrio interesante entre las figuras y el contenido escrito.
 
 **Por mejorar:** Dada la complejidad de algunas figuras, no cargan o no se visualizan adecuadamente al echar a correr la página. (Las figuras tienen animaciones que no podría imitar con mis conocimientos de programación)
