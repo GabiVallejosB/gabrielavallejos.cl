@@ -23,9 +23,12 @@ A continuación se presentan sus Persona:
 #### ¿Qué existe que es similar a la propuesta? →
 
 **1. Athlon**
+
 https://www.weareathlon.com/ 
+
 ![image 3](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/faabf2ac-c6f8-4fe4-ae44-71be39af3641)
 **Bueno:** Buena armonía etre elementos gráficos y el texto. Buena armonía de colores y simpleza.
+
 **Por mejorar:** Carece de información (contenido), los elementos parecen estar muy separados unos con otros.
 
 
