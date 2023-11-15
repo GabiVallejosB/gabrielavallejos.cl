@@ -3,11 +3,16 @@
 Visualizar de manera efectiva y atractiva mi experiencia, habilidades y proyectos de diseño, ayudándome a destacar en el mercado laboral y atraer oportunidades profesionales.
 - - - - - - - - - -
 #### ¿Para quiénes es esta propuesta? →
-**Menos probable 1**
-![Slide 16_9 - 1](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/6e91048b-74e4-40ce-9755-a962fafd2c20)
+Esta propuesta está dirigida a los siguientes usuarios:
 
-**Menos probable 2**
-![Slide 16_9 - 2](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/868164de-b956-40d2-b7a4-65e292b04e11)
+Extremo 1: Curiosa estudiante de diseño que busca empaparse de diseño en sus primeros años de carrera.
+Extremo 2: Diseñadora web que constantemente busca inspiración para el desarrollo de sus proyectos personales.
+Más probable: Diseñadora en Australia que esté en busca de nuevos trabajadores para su equipo de diseño.
+
+A continuación se presentan sus Persona:
+**Extremo 1**
+
+**Extremo 2**
 
 **Más probable**
 ![Slide 16_9 - 3](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/a151d150-ccd5-4136-9284-6ae2b9132fcb)
