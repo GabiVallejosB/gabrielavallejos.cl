@@ -11,8 +11,10 @@ Más probable: Diseñadora en Australia que esté en busca de nuevos trabajadore
 
 A continuación se presentan sus Persona:
 **Extremo 1**
+![Slide 16_9 - 1](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/fc65e942-b73e-44f7-82a0-2954a8374213)
 
 **Extremo 2**
+![Slide 16_9 - 2](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/f8494d60-9566-4b83-9aae-c6f1b89a7838)
 
 **Más probable**
 ![Slide 16_9 - 3](https://github.com/GabiVallejosB/gabrielavallejos.cl/assets/91471184/a151d150-ccd5-4136-9284-6ae2b9132fcb)
