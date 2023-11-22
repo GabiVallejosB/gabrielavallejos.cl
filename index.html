@@ -35,17 +35,14 @@
             }
             nav {
                 backdrop-filter: blur(0.5rem);
-                background-color: #333;
+                background-color: #151515;
             }
             #foto {
                 background: transparent url("https://picsum.photos/id/353/800/450?blur=8") 0 0 no-repeat;
                 background-size: cover;
             }
             footer{
-                background: #000000;
-            }
-            #background {
-                background: #000000;
+                background: #151515;
             }
         </style>
         <title>GABRIELA VALLEJOS</title>
@@ -60,9 +57,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link text-white" href="#lasEspecialidades">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#losTrabajos">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#lasOpiniones">Let's Talk</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#lasEspecialidades">Specialties</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#losTrabajos">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#SobreMi">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#losContactos">Contact</a></li>
                 
                     </ul>
                 </div>
@@ -71,7 +69,8 @@
         <!--Encabezado-->        
         <header class="vh-100" id="foto">
             <div class="position-absolute top-50 start-50 translate-middle w-50 text-white">
-                <h1> Gabriela Vallejos 
+                <div class= "text-container">
+                <h1 class= "h1-large"> Gabriela Vallejos </h1>
                     <p class= "fs-4 text-white">
                         Integrated Designer
                     </p></h1>
@@ -79,15 +78,15 @@
             </header>
 
 
-        <section class="vh-100" bg-black>
-            <div class="container w-50">
+
+        <section class="vh-100 bg-black">
+            <div class="container w-50 text-white">
                 <div class="container py-5">
-                <h1> I focus on creating meaningful human-centered experiences.
-                <h3 class= "fs-4">
-                        imagine. codesign. deliver
-                        <p class= "fs-6">
-                        Check out my specialties
-                </p></h3></h1>
+                    <div class= "text-container">
+                <h1 class= "h1-large"> I focus on creating meaningful human-centered experiences. </h1><br>
+                <h3 class= "fs-4"> imagine. codesign. deliver </h3> <br>
+                <p> <a href="#lasEspecialidades" class="link-light">Check out my specialties</a> </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -111,25 +110,27 @@
         </svg>
         <!--Sección de #lasEspecialidades-->        
         <section class="bg-light" id="lasEspecialidades">
+            <div class= "container">
+                        <h1 class= "h1-large"> Specialties </h1>
             <div class="container py-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#FF69B4"><use href="#system"></use></svg> System Design
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#151515"><use href="#system"></use></svg> System Design
                         </h2>
                         <p>Write a little description...</p>
                         <small>#CoDesign #Innovation</small>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#FF69B4"><use href="#box"></use></svg> Service Design
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#151515"><use href="#box"></use></svg> Service Design
                         </h2>
                         <p>Write a little description...</p>
                         <small>#UserExperience #Collaboration</small>
                     </div>
                     <div class="col-lg-4">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#FF69B4"><use href="#research"></use></svg> Design Research
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#151515"><use href="#research"></use></svg> Design Research
                         </h2>
                         <p>Write a little description...</p>
                         <small>#ProductDesign #Prototyping</small>
