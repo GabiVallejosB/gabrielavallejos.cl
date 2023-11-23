@@ -39,7 +39,7 @@
                 background-size: cover;
             }
             footer{
-                background: #151515;
+                background: #ffffff;
             }
         </style>
         <title>GABRIELA VALLEJOS</title>
@@ -48,64 +48,207 @@
         <!--Barra de navegación fija al tope-->
         <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand text-white" href="index.html">GABRIELA VALLEJOS</a>
+                <a class="navbar-brand text-white fw-bold" href="index.html">GABRIELA VALLEJOS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link text-white" href="#lasEspecialidades">Specialties</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#losTrabajos">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#SobreMi">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#losContactos">Contact</a></li>
-                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#lasEspecialidades">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#losTrabajos">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="Contact.html">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <!--Encabezado-->        
         <header class="vh-100" id="foto">
             <div class="position-absolute top-50 start-50 translate-middle w-50 text-white">
-                <div class= "text-container">
-                <h1 class= "h1-large"> Gabriela Vallejos </h1>
+                <div class= "container text-center">
+                <h1 class= "fw-bold fs-1"> Gabriela Vallejos </h1>
                     <p class= "fs-4 text-white">
                         Integrated Designer
                     </p>
                 </div>
             </div>
         </header>
-        <!--Primera--> 
+
+  <!--Primera--> 
         <section class="vh-100 bg-black">
-            <div class="container w-50 text-white">
-                <div class= "text-container">
-                <h1 class= "h1-large"> I focus on creating meaningful human-centered experiences. </h1><br>
-                <h3 class= "fs-4"> imagine. codesign. deliver </h3> <br>
-                <p> <a href="#lasEspecialidades" class="link-light">Check out my specialties</a> </p> 
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-6 text-white">
+                    <h1 class= "fw-bold fs-1"> I focus on creating meaningful human-centered experiences. </h1><br>
+                    <h3 class= "fw-normal fs-4"> imagine. codesign. deliver </h3> <br>
+                    <a href="#lasEspecialidades" class="btn btn-outline-light" onclick="document.getElementById('buttonLink').click();">Find out more</a>
+          <!-- Hidden button for JavaScript click simulation -->
+          <button id="buttonLink" type="button" class="btn btn-outline-light" style="display: none;"></button>
+                </div>
+                <div class="col">
+                </div>
+                </div>
+            </div>
+        </section>  
+
+    <!--Proyecto 1--> 
+        <section class="vh-100">
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-6">
+                    <p class= "fw-normal fs-6"> System Design </p>
+                    <h1 class= "fw-bold fs-1"> KONECTA </h1><br>
+                    <p class= "fw-normal fs-5"> Designing an integrated system that promotes STEAM learning in the trajectory of children. </p>
+                </div>
+                <div class="col">
+                </div>
+                </div>
+            </div>
+        </section> 
+
+ <!--Proyecto 2--> 
+        <section class="vh-100 bg-black">
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-6 text-white">
+                    <p class= "fw-normal fs-6"> System Design </p>
+                    <h1 class= "fw-bold fs-1"> Luminarie </h1><br>
+                    <p class= "fw-normal fs-5"> Co-designing a solar powered ligh pole to improve security among neighbours. </p>
+                </div>
+                <div class="col">
+                </div>
+                </div>
+            </div>
+        </section> 
+
+    <!--Proyecto 3--> 
+        <section class="vh-100">
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-6">
+                    <p class= "fw-normal fs-6"> Service Design </p>
+                    <h1 class= "fw-bold fs-1"> Packaging </h1><br>
+                    <p class= "fw-normal fs-5"> Speculating over the transformation of packaging in the food industry and the grocery shopping service. </p>
+                </div>
+                <div class="col">
+                </div>
+                </div>
+            </div>
+        </section> 
+
+
+    <!--Proyecto 4--> 
+        <section class="vh-100 bg-black">
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-6 text-white">
+                    <p class= "fw-normal fs-6"> Service Design </p>
+                    <h1 class= "fw-bold fs-1"> Project in process... </h1><br>
+                    <p class= "fw-normal fs-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="col">
+                </div>
+                </div>
+            </div>
+        </section> 
+
+     <!--Sección de #lasOpiniones-->        
+        <section class="bg-light" id="lasOpiniones">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">A few words from people that chose to work with me</h2>
+                    <p class="lead mb-0">Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+                        <!-- Primer comentario-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <p class="mb-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="small text-muted text-end">— Lana Smith</div>
+                            </div>
+                        </div>
+                        <!-- Segundo comentario-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <p class="mb-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="small text-muted text-end">— Marcos R.</div>
+                            </div>
+                        </div>
+                        <!-- Tercer comentario-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <p class="mb-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="small text-muted text-end">— Sam Hook.</div>
+                            </div>
+                        </div>
+                        <!-- Listo, no más comentarios-->
+                    </div>
                 </div>
             </div>
         </section>
-        
+    
         <!--Los símbolos en este SVG escondido serán reutilizados más abajo-->
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol id="system" viewBox="0 0 16 16">
             <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
             <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
             </symbol>
+
             <symbol id="box" viewBox="0 0 16 16">
             <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z"/>
             </symbol>
+
             <symbol id="research" viewBox="0 0 16 16">
             <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
             </symbol>
+
             <symbol id="caset" viewBox="0 0 16 16">
                 <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
                 <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
             </symbol>
+        
+            <symbol id="instagram" viewBox="0 0 16 16">
+             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </symbol>
+
+            <symbol id="Linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
+            </symbol>
+
+            <symbol id="Behance" viewBox="0 0 16 16">
+            <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391.286.176.497.426.641.747.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922.281.426.461.957.461 1.563 0 .496-.105.922-.285 1.278a2.317 2.317 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.329 5.329 0 0 1-1.278.176L0 12.803V3zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a.981.981 0 0 0-.32-.355 1.84 1.84 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305v.005zm6.858-.035c.286.285.711.426 1.278.426.39 0 .746-.106 1.032-.286.285-.215.46-.426.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.135 4.135 0 0 1-1.527-.285 2.827 2.827 0 0 1-1.137-.782 2.851 2.851 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4.018 4.018 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396zm2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176-.215.105-.356.25-.496.39a.957.957 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978v-.957z"/>
+            </symbol>
         </svg>
+
+
+
         <!--Sección de #lasEspecialidades-->        
-        <section class="bg-light" id="lasEspecialidades">
+        <section class="mt-5 mb-5" id="lasEspecialidades">
             <div class= "container">
-                <h1 class= "h1-large"> Specialties </h1>
+                <h1 class= "h1-large"> Services </h1>
             <div class="container py-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -134,13 +277,56 @@
             </div>
         </section>
 
+        <!--Invitación--> 
+        <section class="vh-50 mt-5 mb-5 ">
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-8">
+                    <h1 class= "fw-bold fs-1"> Let’s create something together. </h1><br>
+                    <a href="#lasEspecialidades" class="btn btn-outline-dark" onclick="document.getElementById('buttonLink').click();">Let's talk</a>
+          <!-- Hidden button for JavaScript click simulation -->
+          <button id="buttonLink" type="button" class="btn btn-outline-dark" style="display: none;"></button>
+                </div>
+                <div class="col">
+                </div>
+                </div>
+            </div>
+        </section>
 
+<!-- El pie de página-->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="text-muted">&copy; 2023 Gabriela Vallejos</span>
+    </div>
 
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24" fill="#7E7E7E"><use xlink:href="#Linkedin"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24" fill="#7E7E7E"><use xlink:href="#Behance"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24" fill="#7E7E7E"><use xlink:href="#instagram"/></svg></a></li>
+    
+    </ul>
+  </footer>
+</div>
 
-
-
-
-
-
+        <!-- Lo que sigue es JavaScript a secas-->
+        <script>
+            async function portfolio() {
+                const consulta = await fetch("https://raw.githubusercontent.com/GabiVallejosB/DNO_y_Nuevos_Medios_Clase_12/main/datos.json");
+                const data = await consulta.json();
+                var donde = document.querySelector("#trabajos");
+                data.forEach(function (t, i) {
+                    donde.innerHTML += `<article class="col"><div class="card h-100 shadow-sm ${t.soporte}"><img src="${t.fotos[0]}" class="card-img-top"><div class="card-body"><h3 class="fs-5"><a href="single.html?nro=${i}" class="link-secondary">${t.nombre}</a></h3><p>${t.abstract}</p><small>#${t.soporte}</small></div></div></article>`;
+                });
+            }
+            portfolio().catch((error) => console.error(error));
+        </script>
+        <!-- Lo que sigue es la biblioteca de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
