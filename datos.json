@@ -1,14 +1,14 @@
 [
     {
         "nombre": "KONECTA",
-        "fotos": ["https://picsum.photos/id/252/500/310", "https://picsum.photos/id/252/500/310", "https://picsum.photos/id/252/500/310"],
+        "fotos": ["https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/KONECTA1.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/KONECTA2.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/KONECTA%203.webp"],
         "soporte": "System Design",
         "abstract": "Designing an integrated system that promotes STEAM learning in the trajectory of children.",
-        "texto": "Konecta was born as a conceptual project in collaboration with Kodea Foundation, which sought to extend and improve the experience already generated through the program Los Creadores. <br> The proposal consists of a multiple-piece ecosystem that seeks to empower STEAM learning by exposing children and adolescents to new experiences, promoting their technological exploration, and awakening their curiosity, all to help them generate agency in their trajectory."
+        "texto": "<h1>Konecta was born as a conceptual project in collaboration with Kodea Foundation </h1>, which sought to extend and improve the experience already generated through the program Los Creadores. <br> The proposal consists of a multiple-piece ecosystem that seeks to empower STEAM learning by exposing children and adolescents to new experiences, promoting their technological exploration, and awakening their curiosity, all to help them generate agency in their trajectory."
     },
     {
         "nombre": "Luminaire",
-        "fotos": ["https://picsum.photos/id/3/500/310", "https://picsum.photos/id/3/500/310", "https://picsum.photos/id/3/500/310"],
+        "fotos": ["https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/EI1.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/EI2.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/EI3.webp"],
         "soporte": "System Design",
         "abstract": "Co-designing a solar powered ligh pole to improve security among neighbours.",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
