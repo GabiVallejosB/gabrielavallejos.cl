@@ -124,14 +124,21 @@
 
 
 
+        <!--Sección de #losTrabajos-->        
+        <section class="bg-dark" id="losTrabajos">
+            <div class="container py-5">
+                <div class="row row-cols-lg-2 pb-5 g-5" id="trabajos"></div>
+            </div>
+        </section>
+
+
+
+
+
+
 
         <!--Sección de #losTrabajos-->        
         <section class="border-top border-bottom" id="losTrabajos">
-
-
-
-
-
 
         <!--T1-->
         <div class="container col-xxl-8 px-4 py-5">
@@ -149,13 +156,6 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
 
       <!--T2-->
       <div class="container col-xxl-8 px-4 py-5">
@@ -357,16 +357,29 @@
         <!-- Lo que sigue es JavaScript a secas-->
         <script>
             async function portfolio() {
-                const consulta = await fetch("https://raw.githubusercontent.com/GabiVallejosB/DNO_y_Nuevos_Medios_Clase_12/main/datos.json");
+                const consulta = await fetch("https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/datos.json");
                 const data = await consulta.json();
                 var donde = document.querySelector("#trabajos");
                 data.forEach(function (t, i) {
-                    donde.innerHTML += `<article class="col"><div class="card h-100 shadow-sm ${t.soporte}"><img src="${t.fotos[0]}" class="card-img-top"><div class="card-body"><h3 class="fs-5"><a href="single.html?nro=${i}" class="link-secondary">${t.nombre}</a></h3><p>${t.abstract}</p><small>#${t.soporte}</small></div></div></article>`;
+                    donde.innerHTML +=
+                        '<article class="col"><div class="card h-100 card border-dark mb-3 ' +
+                        t.soporte +
+                        '"><img src="' +
+                        t.fotos[0] +
+                        '" class="card-img-top"><div class="card-body"><h2 class="text-black"><a href="Single.html?nro=' +
+                        i +
+                        '" class="link-secondary">' +
+                        t.nombre +
+                        "</a></h2><p>" +
+                        t.abstract +
+                        "</p><small>#" +
+                        t.soporte +
+                        "</small></div></div></article>";
                 });
             }
             portfolio().catch((error) => console.error(error));
         </script>
         <!-- Lo que sigue es la biblioteca de Bootstrap-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     </body>
 </html>
