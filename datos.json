@@ -1,7 +1,7 @@
 [
     {
         "nombre": "KONECTA",
-        "fotos": ["https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/KONECTA1.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/KONECTA2.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/KONECTA%203.webp"],
+        "fotos": ["https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/K1.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/K2.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/K3.webp"],
         "soporte": "System Design",
         "abstract": "Designing an integrated system that promotes STEAM learning in the trajectory of children.",
         "texto": "Konecta was born as a conceptual project in collaboration with Kodea Foundation, which sought to extend and improve the experience already generated through the program Los Creadores. <br> The proposal consists of a multiple-piece ecosystem that seeks to empower STEAM learning by exposing children and adolescents to new experiences, promoting their technological exploration, and awakening their curiosity, all to help them generate agency in their trajectory.</br> <h2>Project Approach</h2> The system's proposal articulates various programs, among which are the Los Creadores program, the Kodealabs, the Konecta Pop-up, the Desafíos Crea, the ambassadors, the Los Creadores Club, and konecta.cl. The project's development was carried out in collaboration with children and adolescents who were former participants in the Los Creadores program, with the assistance of professionals who are experts in the STEAM (Science, Technology, Engineering, Arts, and Mathematics) field."
@@ -15,14 +15,14 @@
     },
     {
         "nombre": "The Future Of Packaging",
-        "fotos": ["https://picsum.photos/id/464/500/310", "https://picsum.photos/id/464/500/310", "https://picsum.photos/id/464/500/310"],
+        "fotos": ["https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/SD1.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/SD2.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/SD3.webp"],
         "soporte": "Service Design",
         "abstract": "Speculating over the transformation of packaging in the food industry and the grocery shopping service.",
         "texto": "Understanding packaging as a waste-generating element and the shift in subjectivity as the creation of a penalty for waste generation, there arises the need to reformulate the concept of packaging, as in this context, the limited sustainability of the container affects the product's value. <br> By questioning the existence of this element, it is necessary to understand that the world of retail, in this case, supermarkets, revolves around current dynamics. </br> Therefore, to rethink the structure of alimentary packaging, it will also be necessary to reconsider the mode of operation of supermarkets. In this context, what types of consumer experiences arise from the need to communicate value and differentiation if the packaging we know no longer exists? <h2>Project Approach</h2> For this Speculative Design project, I developed a new retail consumer experience, generating spaces for value promotion in this new no-packaging context. The strategy is divided into 3 main dimensions. Firstly the reinvention of supermarkets under this new paradigm, secondly the purchasing experience and how users interact with the products, and finally how users receive their purchased goods.  "
     },
     {
         "nombre": "EmpoderAdah",
-        "fotos": ["https://picsum.photos/id/39/500/310", "https://picsum.photos/id/39/500/310", "https://picsum.photos/id/39/500/310"],
+        "fotos": ["https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/EA1.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/EA2.webp", "https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/Fotos/EA3.webp"],
         "soporte": "Service Design",
         "abstract": "Designing a platform that promotes female financiel empowerment towards budget decision-making.",
         "texto": "<h2> Project in Process ... </h2> <br> This project is being developed as part of my thesis project, focused mainly on promoting financial female empowerment on the budget decision making process.  "
