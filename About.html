@@ -53,13 +53,22 @@
             h6 {
                 font-family: 'Archivo';
                 font-variation-settings: "wght" 500, "wdth" 125;
+                margin-top: 0;
+                margin-bottom: 0;
             }
             body {
                 font-family: 'Space Grotesk'; 
             }
-            #foto {
+            #foto1 {
                 background: transparent url("https://picsum.photos/id/353/800/450?blur=8") 0 0 no-repeat;
                 background-size: cover;
+                height: 100vh;
+            
+            }
+            #foto2 {
+                background: transparent url("https://picsum.photos/id/413/800/450?blur=10") 0 0 no-repeat;
+                background-size: cover;
+                height: 50vh;
             
             }
             footer{
@@ -79,27 +88,21 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" href="index.html">Home</a>
+                            <a class="nav-link active text-white-50" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-white" href="About.html">About</a>
-                        </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link active text-white" href="index.html #lasEspecialidades">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="#losTrabajos">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="Contact.html">Contact</a>
+                            <a class="nav-link active text-white-50" href="Contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!--Encabezado-->        
-        <header class="vh-100" id="foto">
-            <div class="position-absolute top-50 start-50 translate-middle w-50">
+        <header class="vh-50" id="foto2">
+            <div class="position-absolute bottom-50 start-50 translate-middle w-50">
                 <div class= "container text-center">
                 <h1 class="display-5 fw-bold text-light lh-1 mb-3"> I’m a tea and coffee lover as well as an Integrated Designer from Chile. </h1>
                 </div>
@@ -109,6 +112,9 @@
         <!--Introduction--> 
         <section class="vh-50">
             <div class= "pt-5 pb-5 bg-dark text-light">
+                <div class="container">
+            <h2 class="pb-2 text-light">About me</h2>
+        </div>
         <div class="container">
           <div class="row gx-5">
             <div class="col">
@@ -125,14 +131,14 @@
         <section class="px-4 py-5 bg-dark">
             <div class="container">
             <h2 class="pb-2 text-light">Transferable skills</h2>
-            <div class="row g-4 py-5 row-cols-2 row-cols-lg-2">
+            <div class="row gx-5 py-5 ">
               <div class="col d-flex align-items-start">
                 <div class="d-inline-flex me-3">
                   <svg class="bi" width="24" height="24" fill="#FFFFFF"><use xlink:href="#CommunicationSkills"/></svg>
                 </div>
                 <div>
                   <h3 class="fs-4 text-light">Communication skills</h3>
-                  <p class="text-light">Demonstrated by holding focus groups and personal interviews, along with speeches and  interacting with people in multiple social events.</p>
+                  <p class="text-white-50">Demonstrated by holding focus groups and personal interviews, along with speeches and  interacting with people in multiple social events.</p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
@@ -141,7 +147,7 @@
                 </div>
                 <div>
                   <h3 class="fs-4 text-light">interdisciplinary teamwork</h3>
-                  <p class="text-light">Collaborated with different professionals to create responsible design solutions.</p>
+                  <p class="text-white-50">Collaborated with different professionals to create responsible design solutions.</p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
@@ -150,7 +156,7 @@
                 </div>
                 <div>
                   <h3 class="fs-4 text-light">Problem-Solving</h3>
-                  <p class="text-light">Demonstrated by being able to make decisions in those uncertain moments of a design project.</p>
+                  <p class="text-white-50">Demonstrated by being able to make decisions in those uncertain moments of a design project.</p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
@@ -159,7 +165,7 @@
                 </div>
                 <div>
                   <h3 class="fs-4 text-light">Adaptability</h3>
-                  <p class="text-light">Demonstrated by being able to grasp new concepts quickly for my both internships.</p>
+                  <p class="text-white-50">Demonstrated by being able to grasp new concepts quickly for my both internships.</p>
                 </div>
               </div>
             </div>
