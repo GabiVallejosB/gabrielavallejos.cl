@@ -145,7 +145,7 @@
         // Un forEach para cada foto del trabajo
         data[n].fotos.forEach((x, index) => {
             // Assuming there's an "altText" property in your JSON for alt text
-            const altText = data[n].altTexts ? data[n].altTexts[index] : ''; // Adjust this based on your JSON structure
+            const altText = data[n].altTexts ? data[n].altTexts[index] : ''; 
 
             document.querySelector("#trabajos").innerHTML += `<div class="col"><img src="${x}" width="500" height="310" alt="${altText}" class="rounded shadow-sm"></div>`;
         });
