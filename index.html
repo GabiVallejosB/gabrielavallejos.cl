@@ -281,18 +281,19 @@
                 data.forEach(function (t, i) {
                     donde.innerHTML +=
                         '<article class="col"><div class="card h-100 card border-dark mb-3 ' +
-                        t.soporte +
-                        '"><img src="' +
-                        t.fotos[0] +
-                        '" class="card-img-top"><div class="card-body" alt="Example image" width="442" height="274"><h2 class="text-black"><a href="Single.html?nro=' +
-                        i +
-                        '" class="link-secondary">' +
-                        t.nombre +
-                        "</a></h2><p>" +
-                        t.abstract +
-                        "</p><small>#" +
-                        t.soporte +
-                        "</small></div></div></article>";
+        t.soporte +
+        '"><img src="' +
+        t.fotos[0] +
+        '" width="442" height="274" class="card-img-top"><div class="card-body"><h2 class="text-black"><a href="Single.html?nro=' +
+        i +
+        '" class="link-secondary">' +
+        t.nombre +
+        "</a></h2><p>" +
+        t.abstract +
+        "</p><small>#" +
+        t.soporte +
+        "</small></div></div></article>";
+
                 });
             }
             portfolio().catch((error) => console.error(error));
