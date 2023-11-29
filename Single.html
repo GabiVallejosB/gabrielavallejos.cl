@@ -143,7 +143,7 @@
                 //Como n es siempre número: Ya no tengo posibilidad de null
                 document.querySelector("#trabajos").innerHTML = `<div class="col"><h1 class="fs-1">${data[n].nombre}</h1><p>${data[n].texto}</p><small>#${data[n].soporte}</small></div>`;
                 // Un forEach para cada foto del trabajo
-                    data[n].fotos.forEach((x) => {document.querySelector("#trabajos").innerHTML += `<div class="col"><img src="${x}"  class="w-100 rounded shadow-sm"></div>`;
+                    data[n].fotos.forEach((x) => {document.querySelector("#trabajos").innerHTML += `<div class="col"><img src="${x}" width="500" height="310" class="rounded shadow-sm"></div>`;
                 });
                 //Necesito una condición para pasar a trabajo anterior o siguiente si lo hubiera
                 if (n < 1) {document.querySelector("#next").innerHTML = `<a href="single.html?nro=${n + 1}" class="btn btn-sm btn-outline-secondary">siguiente &rarr;</a>`;
