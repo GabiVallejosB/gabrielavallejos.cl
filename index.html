@@ -273,31 +273,34 @@
 </div>
 
         <!-- Lo que sigue es JavaScript a secas-->
-        <script>
-            async function portfolio() {
-                const consulta = await fetch("https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/datos.json");
-                const data = await consulta.json();
-                var donde = document.querySelector("#trabajos");
-                data.forEach(function (t, i) {
-                    donde.innerHTML +=
-                        '<article class="col"><div class="card h-100 card border-dark mb-3 ' +
-        t.soporte +
-        '"><img src="' +
-        t.fotos[0] +
-        '" width="442" height="274" class="card-img-top"><div class="card-body"><h2 class="text-black"><a href="Single.html?nro=' +
-        i +
-        '" class="link-secondary">' +
-        t.nombre +
-        "</a></h2><p>" +
-        t.abstract +
-        "</p><small>#" +
-        t.soporte +
-        "</small></div></div></article>";
+<script>
+    async function portfolio() {
+        const consulta = await fetch("https://raw.githubusercontent.com/GabiVallejosB/gabrielavallejos.cl/main/datos.json");
+        const data = await consulta.json();
+        var donde = document.querySelector("#trabajos");
 
-                });
-            }
-            portfolio().catch((error) => console.error(error));
-        </script>
+        data.forEach(function (t, i) {
+            const altText = t.altTexts ? t.altTexts[0] : ''; // Assuming there's an "altTexts" property in your JSON
+
+            donde.innerHTML +=
+                '<article class="col"><div class="card h-100 card border-dark mb-3 ' +
+                t.soporte +
+                '"><img src="' +
+                t.fotos[0] +
+                '" width="442" height="274" alt="' + altText + '" class="card-img-top"><div class="card-body"><h2 class="text-black"><a href="Single.html?nro=' +
+                i +
+                '" class="link-secondary">' +
+                t.nombre +
+                "</a></h2><p>" +
+                t.abstract +
+                "</p><small>#" +
+                t.soporte +
+                "</small></div></div></article>";
+        });
+    }
+    portfolio().catch((error) => console.error(error));
+</script>
+
         <!-- Lo que sigue es la biblioteca de Bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     </body>
